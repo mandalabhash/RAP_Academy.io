@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 45px;
+    margin: 0px;
+    color: white;
+}
+
+header {
+    padding: 8px;
+    background-color: rgb(17, 124, 143);
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+nav:hover {
+    background-color: darkslategray;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+    background-color: red;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: xx-large;
+}
+
+h1:hover {
+    color: #333;
+}
+
+table {
+    padding: 25px;  
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login {
+    padding: 0px;  
+    border-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    height: 100px;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    background-color: rgb(17, 124, 143);
+    color: black;
+    
+}
+
+td:hover {
+    background-color: rgb(25, 22, 184);
+    color: rgb(17, 124, 143);
+}
+
+.course {
+    border:0px;
+    background-color: transparent;
+}
+
+.course:hover {
+    background-color: transparent;
+}
+
+.course1 {
+    height: 100px;
+    width: 250px;
+    background-color: transparent;
+    color: black;
+}
+
+.course1:hover {
+    background-color: transparent;
+}
+
+.course2 {
+    height: 100px;
+    width: 250px;
+    background-color: transparent;
+    color: black;
+}
+
+.course2:hover {
+    background-color: transparent;
+}
+
+td a {
+    text-decoration: none;
+    font-size: 100%;
+    color: white;
+}
+
+td a:hover {
+    background-color: transparent;
+    
+    font-size: 120%;
+}
+
+section:nth-child(odd) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 0vh;
+    padding: 50px;
+}
+
+.inner1 {
+  padding: 12px;
+} 
+
+.inner {
+    text-align: left;
+}
+
+li a {
+    text-decoration: none;
+}
+
+iframe {
+    height: 40vh;
+    margin: 0 auto;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+section h3 a {
+    text-decoration: none;
+    color:#333;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer:hover {
+    background-color: darkslategray;
+}
+
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+footer a:hover {
+    color: yellow;
+}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password], input[type=email], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
